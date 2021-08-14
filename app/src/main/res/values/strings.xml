@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">色</string>
+    <string name="sy">#</string>
+    <string name="ccd">ffffff</string>
+    <string name="red">255</string>
+    <string name="green">255</string>
+    <string name="bl">255</string>
+    <string name="c">カラーコードを入力してください</string>
+    <string name="r">R</string>
+    <string name="g">G</string>
+    <string name="b">B</string>
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:id="@+id/bag">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/sy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sy"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            />
+
+        <EditText
+            android:id="@+id/ccd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="@string/c"
+            android:inputType="number"
+            android:text="@string/ccd"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#bbbbbb"
+        android:layout_gravity="center"
+        >
+
+        <EditText
+            android:id="@+id/red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/r"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:text="@string/red"
+            android:textColor="#bb0000"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/g"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:text="@string/green"
+            android:textColor="#00bb00"
+            android:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/bl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/b"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:text="@string/bl"
+            android:textColor="#0000bb"
+            android:textSize="30sp" />
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-9318411624917196/1402715422">
+    </com.google.android.gms.ads.AdView>
+</LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
